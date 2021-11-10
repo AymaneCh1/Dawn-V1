@@ -1,27 +1,23 @@
-
-
 {% schema %}
   {
-    "name": "Aymane Section",
+    "name": "icons with text above",
     "settings": [
-                    {
-                        "type": "image_picker",
-                        "id": "image",
-                        "label": "Image"
-                     },
-					 {
-						"type": "checkbox",
-                        "id": "show-icons",
-                        "label": "Show Icons"
-					 },
-					 {
-						"type": "text",
-                        "id": "title",
-                        "label": "Title"
-					 }
-                      
-                    ]
-              
+      {
+        "type"{
+          "type": "text",
+          "id": "heading",
+          "label": "your headline",
+          "info": ""
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "your description",
+          "default": "",
+          "info": ""
+        },
+      }
+    ]           
 	}
 
 {% endschema %}
